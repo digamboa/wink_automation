@@ -1,0 +1,29 @@
+[Appium] Welcome to Appium v1.7.2 (REV 2b50e72ff25df9f0af69502fdcab0d13b4aa704c)
+[Appium] Non-default server args:
+[Appium]   sessionOverride: true
+[Appium]   isolateSimDevice: true
+[Appium]   debugLogSpacing: true
+[Appium]   defaultCommandTimeout: 7200
+[Appium]   platformName: Android
+[Appium]   platformVersion: 7.1.1
+[Appium]   deviceName: 'Pixel API 25'
+[Appium]   app: ./app-development-release.apk
+[Appium]   nativeInstrumentsLib: true
+[Appium]   showIOSLog: true
+[Appium] Deprecated server args:
+[Appium]   --platform-name => --default-capabilities '{"platformName":"Android"}'
+[Appium]   --platform-version => --default-capabilities '{"platformVersion":"7.1.1"}'
+[Appium]   --device-name => --default-capabilities '{"deviceName":"'Pixel API 25'"}'
+[Appium]   --app => --default-capabilities '{"app":"./app-development-release.apk"}'
+[Appium]   --native-instruments-lib => --default-capabilities '{"nativeInstrumentsLib":true}'
+[Appium]   --show-ios-log => --default-capabilities '{"showIOSLog":true}'
+[Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[Appium]   platformName: Android
+[Appium]   platformVersion: 7.1.1
+[Appium]   deviceName: 'Pixel API 25'
+[Appium]   app: ./app-development-release.apk
+[Appium]   nativeInstrumentsLib: true
+[Appium]   showIOSLog: true
+[HTTP] Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+uncaughtException: listen EADDRINUSE 0.0.0.0:4723
+	{"date":"Sun Apr 08 2018 16:34:22 GMT-0600 (CST)","process":{"pid":3179,"uid":501,"gid":20,"cwd":"/Users/edercoronado/Documents/wink_automation","execPath":"/usr/local/bin/node","version":"v8.11.1","argv":["/usr/local/bin/node","/Users/edercoronado/Documents/wink_automation/node_modules/.bin/appium","--address","0.0.0.0","--command-timeout","7200","--session-override","--debug-log-spacing","--platform-version","7.1.1","--platform-name","Android","--show-ios-log","--device-name","'Pixel API 25'","--native-instruments-lib","--isolate-sim-device","--app","./app-development-release.apk"],"memoryUsage":{"rss":145596416,"heapTotal":117936128,"heapUsed":89405320,"external":726733}},"os":{"loadavg":[2.59619140625,2.85693359375,3.17626953125],"uptime":2095},"trace":[{"column":11,"file":"util.js","function":"Object._errnoException","line":1022,"method":"_errnoException","native":false},{"column":20,"file":"util.js","function":"_exceptionWithHostPort","line":1044,"method":null,"native":false},{"column":14,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1367,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1408,"method":null,"native":false},{"column":7,"file":"net.js","function":"doListen","line":1517,"method":null,"native":false},{"column":11,"file":"internal/process/next_tick.js","function":"_combinedTickCallback","line":141,"method":null,"native":false},{"column":9,"file":"internal/process/next_tick.js","function":"process._tickCallback","line":180,"method":"_tickCallback","native":false}],"stack":["Error: listen EADDRINUSE 0.0.0.0:4723","    at Object._errnoException (util.js:1022:11)","    at _exceptionWithHostPort (util.js:1044:20)","    at Server.setupListenHandle [as _listen2] (net.js:1367:14)","    at listenInCluster (net.js:1408:12)","    at doListen (net.js:1517:7)","    at _combinedTickCallback (internal/process/next_tick.js:141:11)","    at process._tickCallback (internal/process/next_tick.js:180:9)"]}
