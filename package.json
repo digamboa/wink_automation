@@ -15,7 +15,8 @@
   },
   "scripts": {
     "start": "node test1.js",
-    "test": "./node_modules/.bin/wdio config/wdio.conf.js"
+    "test": "./node_modules/.bin/wdio config/wdio.conf.js",
+    "appium": "appium"
   },
   "author": "",
   "license": "ISC",

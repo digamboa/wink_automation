@@ -1,7 +1,8 @@
 const wdio = require('webdriverio');
-var selectors = require('./selectors');
+const selectors = require('./selectors');
+const assert = require('assert');
 
-const opts = {
+/* const opts = {
     port: 4723,
     desiredCapabilities: {
       platformName: "Android",
@@ -12,9 +13,9 @@ const opts = {
     }
   };
   
-  const client = wdio.remote(opts);
+  const client = wdio.remote(opts); */
   
-  client
+  /* client
     .init()
     .click(selectors.wink_main_window)
     .click(selectors.create_account_button)
@@ -32,4 +33,11 @@ const opts = {
     .waitForText(selectors.create_account_email_message, 3000)
     .touchAction(selectors.input_create_account_email, 'tap')
     .setValue(selectors.input_create_account_email, "test@test.com")
-    .click(selectors.next_create_account_email_button);
+    .click(selectors.next_create_account_email_button); */
+
+    describe('WINK', () => {
+
+      it('Test', () => {
+        client.client(selectors.create_account_button);
+      })
+    });
