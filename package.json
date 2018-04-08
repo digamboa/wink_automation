@@ -4,17 +4,29 @@
   "description": "",
   "main": "test1.js",
   "dependencies": {
+    "appium": "^1.7.2",
     "appium-uiautomator2-driver": "^1.8.0",
     "wd": "^1.6.1",
     "webdriverio": "^4.12.0"
   },
   "devDependencies": {
+    "wdio-appium-service": "^0.2.3",
     "wdio-mocha-framework": "^0.5.13"
   },
   "scripts": {
     "start": "node test1.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/wdio config/wdio.conf.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digamboa/wink_automation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/digamboa/wink_automation/issues"
+  }
 }
