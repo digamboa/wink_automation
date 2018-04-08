@@ -1,5 +1,5 @@
 const wdio = require('webdriverio');
-const selectors = require('./selectors');
+const selectors = require('../selectors');
 const assert = require('assert');
 
 /* const opts = {
@@ -38,6 +38,8 @@ const assert = require('assert');
     describe('WINK', () => {
 
       it('Test', () => {
-        client.client(selectors.create_account_button);
+        browser.click(selectors.wink_main_window);
+        browser.pause(6000);
+        assert(browser.isVisible(selectors.message_welcome, true));
       })
     });

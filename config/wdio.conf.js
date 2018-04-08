@@ -18,15 +18,16 @@ maxInstances: 1,
 
     capabilities: [
         {
-            appiumVersion: '1.7.1',                 // Appium module version
+            appiumVersion: '1.7.2',                 // Appium module version
             browserName: '',                        // browser name is empty for native apps
             platformName: 'Android',
-            app: 'app-development-release.apk',          // Path to your native app
-            platformVersion: '7.1.1',              // Android platform version of the device
-            deviceName: 'Pixel API 25',              // device name of the mobile device
+            app: '/Users/diegogamboa/wix_automation/config/app-development-release.apk',          // Path to your native app
+            platformVersion: '8.0',              // Android platform version of the device
+            deviceName: 'Nexus 6 API 26',              // device name of the mobile device
             waitforTimeout: waitforTimeout,
             commandTimeout: commandTimeout,
             newCommandTimeout: 30 * 60000,
+            automationName: "UiAutomator2"
         }
     ],
 
