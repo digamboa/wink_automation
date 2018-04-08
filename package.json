@@ -4,7 +4,7 @@
   "description": "",
   "main": "test1.js",
   "dependencies": {
-    "appium-uiautomator2-driver": "^1.6.0",
+    "appium-uiautomator2-driver": "^1.8.0",
     "wd": "^1.6.1",
     "webdriverio": "^4.12.0"
   },

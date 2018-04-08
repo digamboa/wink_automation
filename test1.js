@@ -5,9 +5,9 @@ const opts = {
     port: 4723,
     desiredCapabilities: {
       platformName: "Android",
-      platformVersion: "8.0",
-      deviceName: "Nexus 6 API 26",
-      app: "/Users/diegogamboa/app-production-release.apk",
+      platformVersion: "7.1.1",
+      deviceName: "Pixel API 25",
+      app: "/Users/edercoronado/Documents/wink_automation/app-development-release.apk",
       automationName: "UiAutomator2"
     }
   };
