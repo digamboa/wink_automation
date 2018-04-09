@@ -31,6 +31,9 @@ maxInstances: 1,
         }
     ],
 
+    logLevel: 'verbose',
+    coloredLogs : true,
+    reporters: ['spec'],
 
 services: ['appium'],
 appium: {

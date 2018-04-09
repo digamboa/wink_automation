@@ -42,4 +42,9 @@ const assert = require('assert');
         browser.pause(6000);
         assert(browser.isVisible(selectors.message_welcome, true));
       })
+      it('Test2', () => {
+        browser.touchAction(selectors.input_email, 'tap');
+        browser.setValue(selectors.input_email, "didier@holawink.com");
+        browser.pause(6000);
+      })
     });
