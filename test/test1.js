@@ -4,6 +4,7 @@ const assert = require('assert');
 
     describe('WINK', function(){
 
+<<<<<<< HEAD
       it('Should display the welcome message', function() {
         browser.click(selectors.wink_main_window);
         assert(browser.isVisible(selectors.message_welcome, true));
