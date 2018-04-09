@@ -2,49 +2,38 @@ const wdio = require('webdriverio');
 const selectors = require('../selectors');
 const assert = require('assert');
 
-/* const opts = {
-    port: 4723,
-    desiredCapabilities: {
-      platformName: "Android",
-      platformVersion: "7.1.1",
-      deviceName: "Pixel API 25",
-      app: "/Users/edercoronado/Documents/wink_automation/app-development-release.apk",
-      automationName: "UiAutomator2"
-    }
-  };
-  
-  const client = wdio.remote(opts); */
-  
-  /* client
-    .init()
-    .click(selectors.wink_main_window)
-    .click(selectors.create_account_button)
-    .waitForText(selectors.continue_button_create_account, 3000)
-    .click(selectors.continue_button_create_account)
-    .waitForText(selectors.create_account_message, 3000)
-    .touchAction(selectors.input_name_registration, 'tap')
-    .setValue(selectors.input_name_registration_keyboard_open, "Test")
-    .touchAction(selectors.input_lastName_registration_keyboard_open, 'tap')
-    .setValue(selectors.input_lastName_registration_keyboard_open, "Test2")
-    .touchAction(selectors.input_secondLastName_registration_keyboard_open, 'tap')
-    .setValue(selectors.input_secondLastName_registration_keyboard_open, "Test3")
-    .hideDeviceKeyboard('tapOutside')
-    .click(selectors.next_create_account_button)
-    .waitForText(selectors.create_account_email_message, 3000)
-    .touchAction(selectors.input_create_account_email, 'tap')
-    .setValue(selectors.input_create_account_email, "test@test.com")
-    .click(selectors.next_create_account_email_button); */
+    describe('WINK', function(){
 
-    describe('WINK', () => {
-
-      it('Test', () => {
+      it('Should display the welcome message', function() {
         browser.click(selectors.wink_main_window);
-        browser.pause(6000);
         assert(browser.isVisible(selectors.message_welcome, true));
       })
-      it('Test2', () => {
+
+      //Look for correct property to verify you can´t click the button when there is no email
+      it('Save email button should be disabled', function(){
+        assert(browser.isEnabled(selectors.send_email_button))
+      })
+
+      it('Should insert the email', function() {
         browser.touchAction(selectors.input_email, 'tap');
         browser.setValue(selectors.input_email, "didier@holawink.com");
-        browser.pause(6000);
+        assert(browser.getText(selectors.input_email),"didier@holawink.com")
       })
+
+      it('Should display the thank you message', function(){
+        browser.click(selectors.send_email_button);
+        browser.waitForText(selectors.number_beta_participant, 6000);
+        assert(browser.getText(selectors.number_beta_participant), "#3");
+      })
+
+      it('Should close and relaunch the app', function(){
+        browser.closeApp();
+        browser.startActivity('com.fintechla.wink','com.fintechla.wink.MainActivity');
+        browser.click(selectors.wink_main_window);
+      })
+      it('Should insert text to email and password', function(){
+        browser.setValue(selectors.input_email_main_window, 'didier@holawink.com');
+        browser.setValue(selectors.input_password_main_window, 'tests');
+      })
+
     });
