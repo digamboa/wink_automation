@@ -1,4 +1,5 @@
 
+const variables = require('../variables');
 const host = '0.0.0.0';   // default appium host
 const port = 4723; 
 
@@ -21,7 +22,7 @@ maxInstances: 1,
             appiumVersion: '1.7.2',                 // Appium module version
             browserName: '',                        // browser name is empty for native apps
             platformName: 'Android',
-            app: '/Users/diegogamboa/wink_automation/config/app-development-release.apk',          // Path to your native app
+            app: variables.appPath,          // Path to your native app
             platformVersion: '8.0',              // Android platform version of the device
             deviceName: 'Nexus 6 API 26',              // device name of the mobile device
             waitforTimeout: waitforTimeout,

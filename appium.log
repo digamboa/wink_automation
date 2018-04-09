@@ -1,13 +1,12 @@
-[Appium] Welcome to Appium v1.7.2 (REV d1e81cba0d463bae196881de517304c6bb1112b9)
+[Appium] Welcome to Appium v1.7.2 (REV e8f76ba7041cd54bf219a4b171c128d933f33d4d)
 [Appium] Non-default server args:
 [Appium]   sessionOverride: true
 [Appium]   debugLogSpacing: true
 [Appium]   defaultCommandTimeout: 1800000
-<<<<<<< HEAD
 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
 [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"javascriptEnabled":true,"locationContextEnabled":true,"handlesAlerts":true,"rotatable":true,"appiumVersion":"1.7.2","browserName":"","platformName":"Android","app":"/Users/diegogamboa/wink_automation/config/app-development-release.apk","platformVersion":"8.0","deviceName":"Nexus 6 API 26","waitforTimeout":1800000,"commandTimeout":1800000,"newCommandTimeout":1800000,"automationName":"UiAutomator2","requestOrigins":{"url":"http://webdriver.io","version":"4.12.0","name":"webdriverio"}}}
 [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"javascriptEnabled":true,"locationContextEnabled":true,"handlesAlerts":true,"rotatable":true,"appiumVersion":"1.7.2","browserName":"","platformName":"Android","app":"/Users/diegogamboa/wink_automation/config/app-development-release.apk","platformVersion":"8.0","deviceName":"Nexus 6 API 26","waitforTimeout":1800000,"commandTimeout":1800000,"newCommandTimeout":1800000,"automationName":"UiAutomator2","requestOrigins":{"url":"http://webdriver.io","version":"4.12.0","name":"webdriverio"}},null,null]
-[debug] [BaseDriver] Event 'newSessionRequested' logged at 1523304873742 (14:14:33 GMT-0600 (CST))
+[debug] [BaseDriver] Event 'newSessionRequested' logged at 1523305542538 (14:25:42 GMT-0600 (CST))
 [Appium] Creating new AndroidUiautomator2Driver (v0.11.0) session
 [Appium] Capabilities:
 [Appium]   javascriptEnabled: true
@@ -30,7 +29,7 @@
 [Appium]     name: webdriverio
 [Appium]   }
 [BaseDriver] The following capabilities were provided, but are not recognized by appium: javascriptEnabled, locationContextEnabled, handlesAlerts, rotatable, appiumVersion, waitforTimeout, commandTimeout, requestOrigins.
-[BaseDriver] Session created with session id: 2a045708-f979-48f9-a85a-ff2cb3855d9d
+[BaseDriver] Session created with session id: 4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd
 [BaseDriver] Using local app '/Users/diegogamboa/wink_automation/config/app-development-release.apk'
 [debug] [UiAutomator2] Checking whether app is actually present
 [debug] [AndroidDriver] Getting Java version
@@ -209,7 +208,7 @@
 [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
 [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"SESSIONID\",\"status\":0,\"value\":\"Status Invoked\"}"
 [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8200/wd/hub/session] with body: {"desiredCapabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":true,"warnings":{},"desired":{"javascriptEnabled":true,"locationContextEnabled":true,"handlesAlerts":true,"rotatable":true,"appiumVersion":"1.7.2","browserName":"","platformName":"Android","app":"/Users/diegogamboa/wink_automation/config/app-development-release.apk","platformVersion":"8.0","deviceName":"Nexus 6 API 26","waitforTimeout":1800000,"commandTimeout":1800000,"newCommandTimeout":1800000,"automationName":"UiAutomator2","requestOrigins":{"url":"http://webdriver.io","version":"4.12.0","name":"webdriverio"}},"handlesAlerts":true,"rotatable":true,"appiumVersion":"1.7.2","browserName":"","platformName":"Android","app":"/Users/diegogamboa/wink_automation/config/app-development-release.apk","platformVersion":"8.0.0","deviceName":"emulator-5554","waitforTimeout":1800000,"commandTimeout":1800000,"newCommandTimeou...
-[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"478ec22a-2591-4536-9c70-12634623c255","status":0,"value":"Created Session"}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"ef6ce9f5-2a32-4f77-beec-eb316abc0367","status":0,"value":"Created Session"}
 [UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'com.fintechla.wink/com.fintechla.wink.MainActivity'. Starting it ourselves
 [debug] [ADB] Device API level: 26
 [debug] [ADB] Getting connected devices...
@@ -222,90 +221,90 @@
 [debug] [ADB] 1 device(s) connected
 [debug] [ADB] Running '/Users/diegogamboa/Library/Android/sdk/platform-tools/adb' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","window","windows"]
 [debug] [ADB] Found package: 'com.fintechla.wink' and fully qualified activity name : 'com.fintechla.wink.MainActivity'
-[Appium] New AndroidUiautomator2Driver session created successfully, session 2a045708-f979-48f9-a85a-ff2cb3855d9d added to master session list
-[debug] [BaseDriver] Event 'newSessionStarted' logged at 1523304888372 (14:14:48 GMT-0600 (CST))
+[Appium] New AndroidUiautomator2Driver session created successfully, session 4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd added to master session list
+[debug] [BaseDriver] Event 'newSessionStarted' logged at 1523305556759 (14:25:56 GMT-0600 (CST))
 [debug] [MJSONWP] Responding to client with driver.createSession() result: {"javascriptEnabled":true,"locationContextEnabled":true,"handlesAlerts":true,"rotatable":true,"appiumVersion":"1.7.2","browserName":"","platformName":"Android","app":"/Users/diegogamboa/wink_automation/config/app-development-release.apk","platformVersion":"8.0","deviceName":"Nexus 6 API 26","waitforTimeout":1800000,"commandTimeout":1800000,"newCommandTimeout":1800000,"automationName":"UiAutomator2","requestOrigins":{"url":"http://webdriver.io","version":"4.12.0","name":"webdriverio"}}
-[HTTP] <-- POST /wd/hub/session 200 14641 ms - 561 
-[HTTP] --> POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"android:id/content\")"}
-[debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiSelector().resourceId(\"android:id/content\")","2a045708-f979-48f9-a85a-ff2cb3855d9d"]
+[HTTP] <-- POST /wd/hub/session 200 14228 ms - 561 
+[HTTP] --> POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"android:id/content\")"}
+[debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiSelector().resourceId(\"android:id/content\")","4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd"]
 [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
 [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
 [debug] [BaseDriver] Waiting up to 0 ms for condition
-[debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/478ec22a-2591-4536-9c70-12634623c255/element] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"android:id/content\")","context":"","multiple":false}
-[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"478ec22a-2591-4536-9c70-12634623c255","status":0,"value":{"ELEMENT":"cac82ca9-11d9-441e-a7d0-757d3735c927"}}
-[debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"cac82ca9-11d9-441e-a7d0-757d3735c927"}
-[HTTP] <-- POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element 200 224 ms - 122 
-[HTTP] --> POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element/cac82ca9-11d9-441e-a7d0-757d3735c927/click {}
-[debug] [MJSONWP] Calling AppiumDriver.click() with args: ["cac82ca9-11d9-441e-a7d0-757d3735c927","2a045708-f979-48f9-a85a-ff2cb3855d9d"]
-[debug] [JSONWP Proxy] Proxying [POST /element/cac82ca9-11d9-441e-a7d0-757d3735c927/click] to [POST http://localhost:8200/wd/hub/session/478ec22a-2591-4536-9c70-12634623c255/element/cac82ca9-11d9-441e-a7d0-757d3735c927/click] with body: {"element":"cac82ca9-11d9-441e-a7d0-757d3735c927"}
-[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"478ec22a-2591-4536-9c70-12634623c255","status":0,"value":true}
+[debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/ef6ce9f5-2a32-4f77-beec-eb316abc0367/element] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"android:id/content\")","context":"","multiple":false}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"ef6ce9f5-2a32-4f77-beec-eb316abc0367","status":0,"value":{"ELEMENT":"b5cbc2b4-ce5f-4dc3-945b-497b3ca6548a"}}
+[debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"b5cbc2b4-ce5f-4dc3-945b-497b3ca6548a"}
+[HTTP] <-- POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element 200 88 ms - 122 
+[HTTP] --> POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element/b5cbc2b4-ce5f-4dc3-945b-497b3ca6548a/click {}
+[debug] [MJSONWP] Calling AppiumDriver.click() with args: ["b5cbc2b4-ce5f-4dc3-945b-497b3ca6548a","4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd"]
+[debug] [JSONWP Proxy] Proxying [POST /element/b5cbc2b4-ce5f-4dc3-945b-497b3ca6548a/click] to [POST http://localhost:8200/wd/hub/session/ef6ce9f5-2a32-4f77-beec-eb316abc0367/element/b5cbc2b4-ce5f-4dc3-945b-497b3ca6548a/click] with body: {"element":"b5cbc2b4-ce5f-4dc3-945b-497b3ca6548a"}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"ef6ce9f5-2a32-4f77-beec-eb316abc0367","status":0,"value":true}
 [debug] [MJSONWP] Responding to client with driver.click() result: true
-[HTTP] <-- POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element/cac82ca9-11d9-441e-a7d0-757d3735c927/click 200 4086 ms - 76 
-[HTTP] --> POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/elements {"using":"-android uiautomator","value":"new UiSelector().text(\"¿QUERÉS SER DE L@S\nPRIMER@S EN USAR WINK?\")"}
-[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().text(\"¿QUERÉS SER DE L@S\nPRIMER@S EN USAR WINK?\")","2a045708-f979-48f9-a85a-ff2cb3855d9d"]
+[HTTP] <-- POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element/b5cbc2b4-ce5f-4dc3-945b-497b3ca6548a/click 200 4557 ms - 76 
+[HTTP] --> POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/elements {"using":"-android uiautomator","value":"new UiSelector().text(\"¿QUERÉS SER DE L@S\nPRIMER@S EN USAR WINK?\")"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().text(\"¿QUERÉS SER DE L@S\nPRIMER@S EN USAR WINK?\")","4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd"]
 [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
 [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
 [debug] [BaseDriver] Waiting up to 0 ms for condition
-[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8200/wd/hub/session/478ec22a-2591-4536-9c70-12634623c255/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().text(\"¿QUERÉS SER DE L@S\nPRIMER@S EN USAR WINK?\")","context":"","multiple":true}
-[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"478ec22a-2591-4536-9c70-12634623c255","status":0,"value":[{"ELEMENT":"7a9f3430-2809-4c11-8223-c0097ada4a7c"}]}
-[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"7a9f3430-2809-4c11-8223-c0097ada4a7c"}]
-[HTTP] <-- POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/elements 200 38 ms - 124 
-[HTTP] --> GET /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element/7a9f3430-2809-4c11-8223-c0097ada4a7c/displayed {}
-[debug] [MJSONWP] Calling AppiumDriver.elementDisplayed() with args: ["7a9f3430-2809-4c11-8223-c0097ada4a7c","2a045708-f979-48f9-a85a-ff2cb3855d9d"]
-[debug] [JSONWP Proxy] Proxying [GET /element/7a9f3430-2809-4c11-8223-c0097ada4a7c/attribute/displayed] to [GET http://localhost:8200/wd/hub/session/478ec22a-2591-4536-9c70-12634623c255/element/7a9f3430-2809-4c11-8223-c0097ada4a7c/attribute/displayed] with body: {}
-[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"478ec22a-2591-4536-9c70-12634623c255\",\"status\":0,\"value\":\"true\"}"
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8200/wd/hub/session/ef6ce9f5-2a32-4f77-beec-eb316abc0367/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().text(\"¿QUERÉS SER DE L@S\nPRIMER@S EN USAR WINK?\")","context":"","multiple":true}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"ef6ce9f5-2a32-4f77-beec-eb316abc0367","status":0,"value":[{"ELEMENT":"eacb7f37-79e5-46f4-a4a3-0b595a469321"}]}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"eacb7f37-79e5-46f4-a4a3-0b595a469321"}]
+[HTTP] <-- POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/elements 200 45 ms - 124 
+[HTTP] --> GET /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element/eacb7f37-79e5-46f4-a4a3-0b595a469321/displayed {}
+[debug] [MJSONWP] Calling AppiumDriver.elementDisplayed() with args: ["eacb7f37-79e5-46f4-a4a3-0b595a469321","4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd"]
+[debug] [JSONWP Proxy] Proxying [GET /element/eacb7f37-79e5-46f4-a4a3-0b595a469321/attribute/displayed] to [GET http://localhost:8200/wd/hub/session/ef6ce9f5-2a32-4f77-beec-eb316abc0367/element/eacb7f37-79e5-46f4-a4a3-0b595a469321/attribute/displayed] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"ef6ce9f5-2a32-4f77-beec-eb316abc0367\",\"status\":0,\"value\":\"true\"}"
 [debug] [MJSONWP] Responding to client with driver.elementDisplayed() result: true
-[HTTP] <-- GET /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element/7a9f3430-2809-4c11-8223-c0097ada4a7c/displayed 200 26 ms - 76 
-[HTTP] --> POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/elements {"using":"-android uiautomator","value":"new UiSelector().text(\"GUARDAR E-MAIL\")"}
-[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().text(\"GUARDAR E-MAIL\")","2a045708-f979-48f9-a85a-ff2cb3855d9d"]
+[HTTP] <-- GET /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element/eacb7f37-79e5-46f4-a4a3-0b595a469321/displayed 200 25 ms - 76 
+[HTTP] --> POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/elements {"using":"-android uiautomator","value":"new UiSelector().text(\"GUARDAR E-MAIL\")"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().text(\"GUARDAR E-MAIL\")","4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd"]
 [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
 [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
 [debug] [BaseDriver] Waiting up to 0 ms for condition
-[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8200/wd/hub/session/478ec22a-2591-4536-9c70-12634623c255/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().text(\"GUARDAR E-MAIL\")","context":"","multiple":true}
-[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"478ec22a-2591-4536-9c70-12634623c255","status":0,"value":[{"ELEMENT":"2ca9eaae-83a9-49fc-8f8b-a50f67407531"}]}
-[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"2ca9eaae-83a9-49fc-8f8b-a50f67407531"}]
-[HTTP] <-- POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/elements 200 37 ms - 124 
-[HTTP] --> GET /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element/2ca9eaae-83a9-49fc-8f8b-a50f67407531/enabled {}
-[debug] [MJSONWP] Calling AppiumDriver.elementEnabled() with args: ["2ca9eaae-83a9-49fc-8f8b-a50f67407531","2a045708-f979-48f9-a85a-ff2cb3855d9d"]
-[debug] [JSONWP Proxy] Proxying [GET /element/2ca9eaae-83a9-49fc-8f8b-a50f67407531/attribute/enabled] to [GET http://localhost:8200/wd/hub/session/478ec22a-2591-4536-9c70-12634623c255/element/2ca9eaae-83a9-49fc-8f8b-a50f67407531/attribute/enabled] with body: {}
-[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"478ec22a-2591-4536-9c70-12634623c255\",\"status\":0,\"value\":\"true\"}"
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8200/wd/hub/session/ef6ce9f5-2a32-4f77-beec-eb316abc0367/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().text(\"GUARDAR E-MAIL\")","context":"","multiple":true}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"ef6ce9f5-2a32-4f77-beec-eb316abc0367","status":0,"value":[{"ELEMENT":"b782e8be-0cc4-4f3e-815c-61d10cb51ea3"}]}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"b782e8be-0cc4-4f3e-815c-61d10cb51ea3"}]
+[HTTP] <-- POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/elements 200 39 ms - 124 
+[HTTP] --> GET /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element/b782e8be-0cc4-4f3e-815c-61d10cb51ea3/enabled {}
+[debug] [MJSONWP] Calling AppiumDriver.elementEnabled() with args: ["b782e8be-0cc4-4f3e-815c-61d10cb51ea3","4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd"]
+[debug] [JSONWP Proxy] Proxying [GET /element/b782e8be-0cc4-4f3e-815c-61d10cb51ea3/attribute/enabled] to [GET http://localhost:8200/wd/hub/session/ef6ce9f5-2a32-4f77-beec-eb316abc0367/element/b782e8be-0cc4-4f3e-815c-61d10cb51ea3/attribute/enabled] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"ef6ce9f5-2a32-4f77-beec-eb316abc0367\",\"status\":0,\"value\":\"true\"}"
 [debug] [MJSONWP] Responding to client with driver.elementEnabled() result: true
-[HTTP] <-- GET /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element/2ca9eaae-83a9-49fc-8f8b-a50f67407531/enabled 200 21 ms - 76 
-[HTTP] --> POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\")"}
-[debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiSelector().className(\"android.widget.EditText\")","2a045708-f979-48f9-a85a-ff2cb3855d9d"]
+[HTTP] <-- GET /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element/b782e8be-0cc4-4f3e-815c-61d10cb51ea3/enabled 200 25 ms - 76 
+[HTTP] --> POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\")"}
+[debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiSelector().className(\"android.widget.EditText\")","4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd"]
 [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
 [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
 [debug] [BaseDriver] Waiting up to 0 ms for condition
-[debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/478ec22a-2591-4536-9c70-12634623c255/element] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.EditText\")","context":"","multiple":false}
-[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"478ec22a-2591-4536-9c70-12634623c255","status":0,"value":{"ELEMENT":"984ad2db-819d-4e4d-9e66-5c03cc03b5be"}}
-[debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"984ad2db-819d-4e4d-9e66-5c03cc03b5be"}
-[HTTP] <-- POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element 200 130 ms - 122 
-[HTTP] --> POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/touch/perform {"actions":[{"action":"tap","options":{"element":"984ad2db-819d-4e4d-9e66-5c03cc03b5be"}}]}
-[debug] [MJSONWP] Calling AppiumDriver.performTouch() with args: [[{"action":"tap","options":{"element":"984ad2db-819d-4e4d-9e66-5c03cc03b5be"}}],"2a045708-f979-48f9-a85a-ff2cb3855d9d"]
-[UiAutomator2] calling get location: 984ad2db-819d-4e4d-9e66-5c03cc03b5be
-[debug] [JSONWP Proxy] Proxying [GET /element/984ad2db-819d-4e4d-9e66-5c03cc03b5be/location] to [GET http://localhost:8200/wd/hub/session/478ec22a-2591-4536-9c70-12634623c255/element/984ad2db-819d-4e4d-9e66-5c03cc03b5be/location] with body: {}
-[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"478ec22a-2591-4536-9c70-12634623c255\",\"status\":0,\"value\":{\"x\":73,\"y\":1539}}"
-[debug] [JSONWP Proxy] Proxying [GET /element/984ad2db-819d-4e4d-9e66-5c03cc03b5be/size] to [GET http://localhost:8200/wd/hub/session/478ec22a-2591-4536-9c70-12634623c255/element/984ad2db-819d-4e4d-9e66-5c03cc03b5be/size] with body: {}
-[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"478ec22a-2591-4536-9c70-12634623c255\",\"status\":0,\"value\":{\"width\":1294,\"height\":74}}"
-[debug] [JSONWP Proxy] Proxying [POST /element/984ad2db-819d-4e4d-9e66-5c03cc03b5be/click] to [POST http://localhost:8200/wd/hub/session/478ec22a-2591-4536-9c70-12634623c255/element/984ad2db-819d-4e4d-9e66-5c03cc03b5be/click] with body: {"720":720,"1576":1576,"element":"984ad2db-819d-4e4d-9e66-5c03cc03b5be"}
-[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"478ec22a-2591-4536-9c70-12634623c255","status":0,"value":true}
+[debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/ef6ce9f5-2a32-4f77-beec-eb316abc0367/element] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.EditText\")","context":"","multiple":false}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"ef6ce9f5-2a32-4f77-beec-eb316abc0367","status":0,"value":{"ELEMENT":"bc6792dd-3341-4c4b-9a85-617880d12af9"}}
+[debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"bc6792dd-3341-4c4b-9a85-617880d12af9"}
+[HTTP] <-- POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element 200 24 ms - 122 
+[HTTP] --> POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/touch/perform {"actions":[{"action":"tap","options":{"element":"bc6792dd-3341-4c4b-9a85-617880d12af9"}}]}
+[debug] [MJSONWP] Calling AppiumDriver.performTouch() with args: [[{"action":"tap","options":{"element":"bc6792dd-3341-4c4b-9a85-617880d12af9"}}],"4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd"]
+[UiAutomator2] calling get location: bc6792dd-3341-4c4b-9a85-617880d12af9
+[debug] [JSONWP Proxy] Proxying [GET /element/bc6792dd-3341-4c4b-9a85-617880d12af9/location] to [GET http://localhost:8200/wd/hub/session/ef6ce9f5-2a32-4f77-beec-eb316abc0367/element/bc6792dd-3341-4c4b-9a85-617880d12af9/location] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"ef6ce9f5-2a32-4f77-beec-eb316abc0367\",\"status\":0,\"value\":{\"x\":73,\"y\":1539}}"
+[debug] [JSONWP Proxy] Proxying [GET /element/bc6792dd-3341-4c4b-9a85-617880d12af9/size] to [GET http://localhost:8200/wd/hub/session/ef6ce9f5-2a32-4f77-beec-eb316abc0367/element/bc6792dd-3341-4c4b-9a85-617880d12af9/size] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"ef6ce9f5-2a32-4f77-beec-eb316abc0367\",\"status\":0,\"value\":{\"width\":1294,\"height\":74}}"
+[debug] [JSONWP Proxy] Proxying [POST /element/bc6792dd-3341-4c4b-9a85-617880d12af9/click] to [POST http://localhost:8200/wd/hub/session/ef6ce9f5-2a32-4f77-beec-eb316abc0367/element/bc6792dd-3341-4c4b-9a85-617880d12af9/click] with body: {"720":720,"1576":1576,"element":"bc6792dd-3341-4c4b-9a85-617880d12af9"}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"ef6ce9f5-2a32-4f77-beec-eb316abc0367","status":0,"value":true}
 [debug] [MJSONWP] Responding to client with driver.performTouch() result: null
-[HTTP] <-- POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/touch/perform 200 1556 ms - 76 
-[HTTP] --> POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\")"}
-[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().className(\"android.widget.EditText\")","2a045708-f979-48f9-a85a-ff2cb3855d9d"]
+[HTTP] <-- POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/touch/perform 200 1499 ms - 76 
+[HTTP] --> POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\")"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().className(\"android.widget.EditText\")","4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd"]
 [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
 [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
 [debug] [BaseDriver] Waiting up to 0 ms for condition
-[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8200/wd/hub/session/478ec22a-2591-4536-9c70-12634623c255/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.EditText\")","context":"","multiple":true}
-[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"478ec22a-2591-4536-9c70-12634623c255","status":0,"value":[{"ELEMENT":"ac386c73-6d62-479d-a487-0d527b2055f6"}]}
-[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"ac386c73-6d62-479d-a487-0d527b2055f6"}]
-[HTTP] <-- POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/elements 200 29 ms - 124 
-[HTTP] --> POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element/ac386c73-6d62-479d-a487-0d527b2055f6/clear {}
-[debug] [MJSONWP] Calling AppiumDriver.clear() with args: ["ac386c73-6d62-479d-a487-0d527b2055f6","2a045708-f979-48f9-a85a-ff2cb3855d9d"]
-[debug] [JSONWP Proxy] Proxying [GET /element/ac386c73-6d62-479d-a487-0d527b2055f6/text] to [GET http://localhost:8200/wd/hub/session/478ec22a-2591-4536-9c70-12634623c255/element/ac386c73-6d62-479d-a487-0d527b2055f6/text] with body: {}
-[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"478ec22a-2591-4536-9c70-12634623c255\",\"status\":0,\"value\":\"\"}"
-[debug] [JSONWP Proxy] Proxying [POST /element/ac386c73-6d62-479d-a487-0d527b2055f6/click] to [POST http://localhost:8200/wd/hub/session/478ec22a-2591-4536-9c70-12634623c255/element/ac386c73-6d62-479d-a487-0d527b2055f6/click] with body: {"element":"ac386c73-6d62-479d-a487-0d527b2055f6"}
-[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"478ec22a-2591-4536-9c70-12634623c255","status":0,"value":true}
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8200/wd/hub/session/ef6ce9f5-2a32-4f77-beec-eb316abc0367/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.EditText\")","context":"","multiple":true}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"ef6ce9f5-2a32-4f77-beec-eb316abc0367","status":0,"value":[{"ELEMENT":"1ff53a57-6f60-4275-8417-cd1b59fc53d3"}]}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"1ff53a57-6f60-4275-8417-cd1b59fc53d3"}]
+[HTTP] <-- POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/elements 200 29 ms - 124 
+[HTTP] --> POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element/1ff53a57-6f60-4275-8417-cd1b59fc53d3/clear {}
+[debug] [MJSONWP] Calling AppiumDriver.clear() with args: ["1ff53a57-6f60-4275-8417-cd1b59fc53d3","4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd"]
+[debug] [JSONWP Proxy] Proxying [GET /element/1ff53a57-6f60-4275-8417-cd1b59fc53d3/text] to [GET http://localhost:8200/wd/hub/session/ef6ce9f5-2a32-4f77-beec-eb316abc0367/element/1ff53a57-6f60-4275-8417-cd1b59fc53d3/text] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"ef6ce9f5-2a32-4f77-beec-eb316abc0367\",\"status\":0,\"value\":\"\"}"
+[debug] [JSONWP Proxy] Proxying [POST /element/1ff53a57-6f60-4275-8417-cd1b59fc53d3/click] to [POST http://localhost:8200/wd/hub/session/ef6ce9f5-2a32-4f77-beec-eb316abc0367/element/1ff53a57-6f60-4275-8417-cd1b59fc53d3/click] with body: {"element":"1ff53a57-6f60-4275-8417-cd1b59fc53d3"}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"ef6ce9f5-2a32-4f77-beec-eb316abc0367","status":0,"value":true}
 [debug] [AndroidDriver] Sending up to 100 clear characters to device
 [debug] [AndroidDriver] Sending 50 clear characters to device
 [debug] [ADB] Clearing up to 50 characters
@@ -318,82 +317,82 @@
 [debug] [ADB] 1 device(s) connected
 [debug] [ADB] Running '/Users/diegogamboa/Library/Android/sdk/platform-tools/adb' with args: ["-P",5037,"-s","emulator-5554","shell","input","keyevent","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112"]
 [debug] [MJSONWP] Responding to client with driver.clear() result: null
-[HTTP] <-- POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element/ac386c73-6d62-479d-a487-0d527b2055f6/clear 200 4646 ms - 76 
-[HTTP] --> POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element/ac386c73-6d62-479d-a487-0d527b2055f6/value {"value":["d","i","d","i","e","r","@","h","o","l","a","w","i","n","k",".","c","o","m"],"text":"didier@holawink.com"}
-[debug] [MJSONWP] Calling AppiumDriver.setValue() with args: [["d","i","d","i","e","r","@","h","o","l","a","w","i","n","k",".","c","o","m"],"ac386c73-6d62-479d-a487-0d527b2055f6","2a045708-f979-48f9-a85a-ff2cb3855d9d"]
-[debug] [JSONWP Proxy] Proxying [POST /element/ac386c73-6d62-479d-a487-0d527b2055f6/value] to [POST http://localhost:8200/wd/hub/session/478ec22a-2591-4536-9c70-12634623c255/element/ac386c73-6d62-479d-a487-0d527b2055f6/value] with body: {"elementId":"ac386c73-6d62-479d-a487-0d527b2055f6","text":"didier@holawink.com","replace":false}
-[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"478ec22a-2591-4536-9c70-12634623c255","status":0,"value":""}
+[HTTP] <-- POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element/1ff53a57-6f60-4275-8417-cd1b59fc53d3/clear 200 4722 ms - 76 
+[HTTP] --> POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element/1ff53a57-6f60-4275-8417-cd1b59fc53d3/value {"value":["d","i","d","i","e","r","@","h","o","l","a","w","i","n","k",".","c","o","m"],"text":"didier@holawink.com"}
+[debug] [MJSONWP] Calling AppiumDriver.setValue() with args: [["d","i","d","i","e","r","@","h","o","l","a","w","i","n","k",".","c","o","m"],"1ff53a57-6f60-4275-8417-cd1b59fc53d3","4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd"]
+[debug] [JSONWP Proxy] Proxying [POST /element/1ff53a57-6f60-4275-8417-cd1b59fc53d3/value] to [POST http://localhost:8200/wd/hub/session/ef6ce9f5-2a32-4f77-beec-eb316abc0367/element/1ff53a57-6f60-4275-8417-cd1b59fc53d3/value] with body: {"elementId":"1ff53a57-6f60-4275-8417-cd1b59fc53d3","text":"didier@holawink.com","replace":false}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"ef6ce9f5-2a32-4f77-beec-eb316abc0367","status":0,"value":""}
 [debug] [MJSONWP] Responding to client with driver.setValue() result: ""
-[HTTP] <-- POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element/ac386c73-6d62-479d-a487-0d527b2055f6/value 200 113 ms - 74 
-[HTTP] --> POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\")"}
-[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().className(\"android.widget.EditText\")","2a045708-f979-48f9-a85a-ff2cb3855d9d"]
+[HTTP] <-- POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element/1ff53a57-6f60-4275-8417-cd1b59fc53d3/value 200 148 ms - 74 
+[HTTP] --> POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\")"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().className(\"android.widget.EditText\")","4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd"]
 [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
 [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
 [debug] [BaseDriver] Waiting up to 0 ms for condition
-[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8200/wd/hub/session/478ec22a-2591-4536-9c70-12634623c255/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.EditText\")","context":"","multiple":true}
-[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"478ec22a-2591-4536-9c70-12634623c255","status":0,"value":[{"ELEMENT":"ba656b48-a32d-41c4-b8ff-0476e16ee57f"}]}
-[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"ba656b48-a32d-41c4-b8ff-0476e16ee57f"}]
-[HTTP] <-- POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/elements 200 687 ms - 124 
-[HTTP] --> GET /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element/ba656b48-a32d-41c4-b8ff-0476e16ee57f/text {}
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8200/wd/hub/session/ef6ce9f5-2a32-4f77-beec-eb316abc0367/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.EditText\")","context":"","multiple":true}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"ef6ce9f5-2a32-4f77-beec-eb316abc0367","status":0,"value":[{"ELEMENT":"4cb37782-d1fc-4083-aabe-66358fb7d28f"}]}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"4cb37782-d1fc-4083-aabe-66358fb7d28f"}]
+[HTTP] <-- POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/elements 200 670 ms - 124 
+[HTTP] --> GET /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element/4cb37782-d1fc-4083-aabe-66358fb7d28f/text {}
 [MJSONWP] Driver proxy active, passing request on via HTTP proxy
-[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element/ba656b48-a32d-41c4-b8ff-0476e16ee57f/text] to [GET http://localhost:8200/wd/hub/session/478ec22a-2591-4536-9c70-12634623c255/element/ba656b48-a32d-41c4-b8ff-0476e16ee57f/text] with body: {}
-[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"478ec22a-2591-4536-9c70-12634623c255\",\"status\":0,\"value\":\"didier@holawink.com\"}"
-[JSONWP Proxy] Replacing sessionId 478ec22a-2591-4536-9c70-12634623c255 with 2a045708-f979-48f9-a85a-ff2cb3855d9d
-[HTTP] <-- GET /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element/ba656b48-a32d-41c4-b8ff-0476e16ee57f/text 200 23 ms - 93 
-[HTTP] --> POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element {"using":"-android uiautomator","value":"new UiSelector().text(\"GUARDAR E-MAIL\")"}
-[debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiSelector().text(\"GUARDAR E-MAIL\")","2a045708-f979-48f9-a85a-ff2cb3855d9d"]
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element/4cb37782-d1fc-4083-aabe-66358fb7d28f/text] to [GET http://localhost:8200/wd/hub/session/ef6ce9f5-2a32-4f77-beec-eb316abc0367/element/4cb37782-d1fc-4083-aabe-66358fb7d28f/text] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"ef6ce9f5-2a32-4f77-beec-eb316abc0367\",\"status\":0,\"value\":\"didier@holawink.com\"}"
+[JSONWP Proxy] Replacing sessionId ef6ce9f5-2a32-4f77-beec-eb316abc0367 with 4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd
+[HTTP] <-- GET /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element/4cb37782-d1fc-4083-aabe-66358fb7d28f/text 200 20 ms - 93 
+[HTTP] --> POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element {"using":"-android uiautomator","value":"new UiSelector().text(\"GUARDAR E-MAIL\")"}
+[debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiSelector().text(\"GUARDAR E-MAIL\")","4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd"]
 [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
 [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
 [debug] [BaseDriver] Waiting up to 0 ms for condition
-[debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/478ec22a-2591-4536-9c70-12634623c255/element] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().text(\"GUARDAR E-MAIL\")","context":"","multiple":false}
-[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"478ec22a-2591-4536-9c70-12634623c255","status":0,"value":{"ELEMENT":"4407c694-a85d-4702-8df4-294ddebb2099"}}
-[debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"4407c694-a85d-4702-8df4-294ddebb2099"}
-[HTTP] <-- POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element 200 25 ms - 122 
-[HTTP] --> POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element/4407c694-a85d-4702-8df4-294ddebb2099/click {}
-[debug] [MJSONWP] Calling AppiumDriver.click() with args: ["4407c694-a85d-4702-8df4-294ddebb2099","2a045708-f979-48f9-a85a-ff2cb3855d9d"]
-[debug] [JSONWP Proxy] Proxying [POST /element/4407c694-a85d-4702-8df4-294ddebb2099/click] to [POST http://localhost:8200/wd/hub/session/478ec22a-2591-4536-9c70-12634623c255/element/4407c694-a85d-4702-8df4-294ddebb2099/click] with body: {"element":"4407c694-a85d-4702-8df4-294ddebb2099"}
-[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"478ec22a-2591-4536-9c70-12634623c255","status":0,"value":true}
+[debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/ef6ce9f5-2a32-4f77-beec-eb316abc0367/element] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().text(\"GUARDAR E-MAIL\")","context":"","multiple":false}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"ef6ce9f5-2a32-4f77-beec-eb316abc0367","status":0,"value":{"ELEMENT":"b505507d-ea51-4f5e-98bb-5f114dc39ca4"}}
+[debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"b505507d-ea51-4f5e-98bb-5f114dc39ca4"}
+[HTTP] <-- POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element 200 21 ms - 122 
+[HTTP] --> POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element/b505507d-ea51-4f5e-98bb-5f114dc39ca4/click {}
+[debug] [MJSONWP] Calling AppiumDriver.click() with args: ["b505507d-ea51-4f5e-98bb-5f114dc39ca4","4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd"]
+[debug] [JSONWP Proxy] Proxying [POST /element/b505507d-ea51-4f5e-98bb-5f114dc39ca4/click] to [POST http://localhost:8200/wd/hub/session/ef6ce9f5-2a32-4f77-beec-eb316abc0367/element/b505507d-ea51-4f5e-98bb-5f114dc39ca4/click] with body: {"element":"b505507d-ea51-4f5e-98bb-5f114dc39ca4"}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"ef6ce9f5-2a32-4f77-beec-eb316abc0367","status":0,"value":true}
 [debug] [MJSONWP] Responding to client with driver.click() result: true
-[HTTP] <-- POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element/4407c694-a85d-4702-8df4-294ddebb2099/click 200 3358 ms - 76 
-[HTTP] --> POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/elements {"using":"-android uiautomator","value":"new UiSelector().text(\"#3\")"}
-[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().text(\"#3\")","2a045708-f979-48f9-a85a-ff2cb3855d9d"]
+[HTTP] <-- POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element/b505507d-ea51-4f5e-98bb-5f114dc39ca4/click 200 3310 ms - 76 
+[HTTP] --> POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/elements {"using":"-android uiautomator","value":"new UiSelector().text(\"#3\")"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().text(\"#3\")","4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd"]
 [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
 [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
 [debug] [BaseDriver] Waiting up to 0 ms for condition
-[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8200/wd/hub/session/478ec22a-2591-4536-9c70-12634623c255/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().text(\"#3\")","context":"","multiple":true}
-[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"478ec22a-2591-4536-9c70-12634623c255","status":0,"value":[{"ELEMENT":"9d8c2d68-75c6-4bc4-9078-de3afb47caa8"}]}
-[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"9d8c2d68-75c6-4bc4-9078-de3afb47caa8"}]
-[HTTP] <-- POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/elements 200 25 ms - 124 
-[HTTP] --> GET /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element/9d8c2d68-75c6-4bc4-9078-de3afb47caa8/text {}
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8200/wd/hub/session/ef6ce9f5-2a32-4f77-beec-eb316abc0367/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().text(\"#3\")","context":"","multiple":true}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"ef6ce9f5-2a32-4f77-beec-eb316abc0367","status":0,"value":[{"ELEMENT":"5696023f-ec24-42a9-b38e-e8001e981f8f"}]}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"5696023f-ec24-42a9-b38e-e8001e981f8f"}]
+[HTTP] <-- POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/elements 200 23 ms - 124 
+[HTTP] --> GET /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element/5696023f-ec24-42a9-b38e-e8001e981f8f/text {}
 [MJSONWP] Driver proxy active, passing request on via HTTP proxy
-[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element/9d8c2d68-75c6-4bc4-9078-de3afb47caa8/text] to [GET http://localhost:8200/wd/hub/session/478ec22a-2591-4536-9c70-12634623c255/element/9d8c2d68-75c6-4bc4-9078-de3afb47caa8/text] with body: {}
-[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"478ec22a-2591-4536-9c70-12634623c255\",\"status\":0,\"value\":\"#3\"}"
-[JSONWP Proxy] Replacing sessionId 478ec22a-2591-4536-9c70-12634623c255 with 2a045708-f979-48f9-a85a-ff2cb3855d9d
-[HTTP] <-- GET /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element/9d8c2d68-75c6-4bc4-9078-de3afb47caa8/text 200 29 ms - 76 
-[HTTP] --> POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/elements {"using":"-android uiautomator","value":"new UiSelector().text(\"#3\")"}
-[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().text(\"#3\")","2a045708-f979-48f9-a85a-ff2cb3855d9d"]
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element/5696023f-ec24-42a9-b38e-e8001e981f8f/text] to [GET http://localhost:8200/wd/hub/session/ef6ce9f5-2a32-4f77-beec-eb316abc0367/element/5696023f-ec24-42a9-b38e-e8001e981f8f/text] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"ef6ce9f5-2a32-4f77-beec-eb316abc0367\",\"status\":0,\"value\":\"#3\"}"
+[JSONWP Proxy] Replacing sessionId ef6ce9f5-2a32-4f77-beec-eb316abc0367 with 4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd
+[HTTP] <-- GET /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element/5696023f-ec24-42a9-b38e-e8001e981f8f/text 200 25 ms - 76 
+[HTTP] --> POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/elements {"using":"-android uiautomator","value":"new UiSelector().text(\"#3\")"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().text(\"#3\")","4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd"]
 [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
 [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
 [debug] [BaseDriver] Waiting up to 0 ms for condition
-[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8200/wd/hub/session/478ec22a-2591-4536-9c70-12634623c255/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().text(\"#3\")","context":"","multiple":true}
-[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"478ec22a-2591-4536-9c70-12634623c255","status":0,"value":[{"ELEMENT":"4b15b70a-4e37-4e93-ab08-8c95f9d37687"}]}
-[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"4b15b70a-4e37-4e93-ab08-8c95f9d37687"}]
-[HTTP] <-- POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/elements 200 28 ms - 124 
-[HTTP] --> GET /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element/4b15b70a-4e37-4e93-ab08-8c95f9d37687/text {}
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8200/wd/hub/session/ef6ce9f5-2a32-4f77-beec-eb316abc0367/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().text(\"#3\")","context":"","multiple":true}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"ef6ce9f5-2a32-4f77-beec-eb316abc0367","status":0,"value":[{"ELEMENT":"0f865588-8c2d-4931-9dd4-26e91747da50"}]}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"0f865588-8c2d-4931-9dd4-26e91747da50"}]
+[HTTP] <-- POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/elements 200 31 ms - 124 
+[HTTP] --> GET /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element/0f865588-8c2d-4931-9dd4-26e91747da50/text {}
 [MJSONWP] Driver proxy active, passing request on via HTTP proxy
-[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element/4b15b70a-4e37-4e93-ab08-8c95f9d37687/text] to [GET http://localhost:8200/wd/hub/session/478ec22a-2591-4536-9c70-12634623c255/element/4b15b70a-4e37-4e93-ab08-8c95f9d37687/text] with body: {}
-[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"478ec22a-2591-4536-9c70-12634623c255\",\"status\":0,\"value\":\"#3\"}"
-[JSONWP Proxy] Replacing sessionId 478ec22a-2591-4536-9c70-12634623c255 with 2a045708-f979-48f9-a85a-ff2cb3855d9d
-[HTTP] <-- GET /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element/4b15b70a-4e37-4e93-ab08-8c95f9d37687/text 200 26 ms - 76 
-[HTTP] --> POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/appium/app/close {}
-[debug] [MJSONWP] Calling AppiumDriver.closeApp() with args: ["2a045708-f979-48f9-a85a-ff2cb3855d9d"]
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element/0f865588-8c2d-4931-9dd4-26e91747da50/text] to [GET http://localhost:8200/wd/hub/session/ef6ce9f5-2a32-4f77-beec-eb316abc0367/element/0f865588-8c2d-4931-9dd4-26e91747da50/text] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"ef6ce9f5-2a32-4f77-beec-eb316abc0367\",\"status\":0,\"value\":\"#3\"}"
+[JSONWP Proxy] Replacing sessionId ef6ce9f5-2a32-4f77-beec-eb316abc0367 with 4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd
+[HTTP] <-- GET /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element/0f865588-8c2d-4931-9dd4-26e91747da50/text 200 21 ms - 76 
+[HTTP] --> POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/appium/app/close {}
+[debug] [MJSONWP] Calling AppiumDriver.closeApp() with args: ["4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd"]
 [debug] [ADB] Getting connected devices...
 [debug] [ADB] 1 device(s) connected
 [debug] [ADB] Running '/Users/diegogamboa/Library/Android/sdk/platform-tools/adb' with args: ["-P",5037,"-s","emulator-5554","shell","am","force-stop","com.fintechla.wink"]
 [debug] [MJSONWP] Responding to client with driver.closeApp() result: null
-[HTTP] <-- POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/appium/app/close 200 99 ms - 76 
-[HTTP] --> POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/appium/device/start_activity {"appPackage":"com.fintechla.wink","appActivity":"com.fintechla.wink.MainActivity"}
-[debug] [MJSONWP] Calling AppiumDriver.startActivity() with args: ["com.fintechla.wink","com.fintechla.wink.MainActivity",null,null,null,null,null,null,null,null,null,"2a045708-f979-48f9-a85a-ff2cb3855d9d"]
+[HTTP] <-- POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/appium/app/close 200 128 ms - 76 
+[HTTP] --> POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/appium/device/start_activity {"appPackage":"com.fintechla.wink","appActivity":"com.fintechla.wink.MainActivity"}
+[debug] [MJSONWP] Calling AppiumDriver.startActivity() with args: ["com.fintechla.wink","com.fintechla.wink.MainActivity",null,null,null,null,null,null,null,null,null,"4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd"]
 [debug] [AndroidDriver] Starting package 'com.fintechla.wink' and activity 'com.fintechla.wink.MainActivity'
 [debug] [ADB] Device API level: 26
 [debug] [ADB] Getting connected devices...
@@ -407,37 +406,37 @@
 [debug] [ADB] Running '/Users/diegogamboa/Library/Android/sdk/platform-tools/adb' with args: ["-P",5037,"-s","emulator-5554","shell","dumpsys","window","windows"]
 [debug] [ADB] Found package: 'com.fintechla.wink' and fully qualified activity name : 'com.fintechla.wink.MainActivity'
 [debug] [MJSONWP] Responding to client with driver.startActivity() result: null
-[HTTP] <-- POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/appium/device/start_activity 200 1358 ms - 76 
-[HTTP] --> POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"android:id/content\")"}
-[debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiSelector().resourceId(\"android:id/content\")","2a045708-f979-48f9-a85a-ff2cb3855d9d"]
+[HTTP] <-- POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/appium/device/start_activity 200 1692 ms - 76 
+[HTTP] --> POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"android:id/content\")"}
+[debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiSelector().resourceId(\"android:id/content\")","4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd"]
 [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
 [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
 [debug] [BaseDriver] Waiting up to 0 ms for condition
-[debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/478ec22a-2591-4536-9c70-12634623c255/element] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"android:id/content\")","context":"","multiple":false}
-[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"478ec22a-2591-4536-9c70-12634623c255","status":0,"value":{"ELEMENT":"9afca26b-ced6-404c-8735-cd24986e931a"}}
-[debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"9afca26b-ced6-404c-8735-cd24986e931a"}
-[HTTP] <-- POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element 200 395 ms - 122 
-[HTTP] --> POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element/9afca26b-ced6-404c-8735-cd24986e931a/click {}
-[debug] [MJSONWP] Calling AppiumDriver.click() with args: ["9afca26b-ced6-404c-8735-cd24986e931a","2a045708-f979-48f9-a85a-ff2cb3855d9d"]
-[debug] [JSONWP Proxy] Proxying [POST /element/9afca26b-ced6-404c-8735-cd24986e931a/click] to [POST http://localhost:8200/wd/hub/session/478ec22a-2591-4536-9c70-12634623c255/element/9afca26b-ced6-404c-8735-cd24986e931a/click] with body: {"element":"9afca26b-ced6-404c-8735-cd24986e931a"}
-[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"478ec22a-2591-4536-9c70-12634623c255","status":0,"value":true}
+[debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/ef6ce9f5-2a32-4f77-beec-eb316abc0367/element] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"android:id/content\")","context":"","multiple":false}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"ef6ce9f5-2a32-4f77-beec-eb316abc0367","status":0,"value":{"ELEMENT":"55f8b5b2-8f7a-4d96-bf5c-c9808eaaaa8b"}}
+[debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"55f8b5b2-8f7a-4d96-bf5c-c9808eaaaa8b"}
+[HTTP] <-- POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element 200 279 ms - 122 
+[HTTP] --> POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element/55f8b5b2-8f7a-4d96-bf5c-c9808eaaaa8b/click {}
+[debug] [MJSONWP] Calling AppiumDriver.click() with args: ["55f8b5b2-8f7a-4d96-bf5c-c9808eaaaa8b","4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd"]
+[debug] [JSONWP Proxy] Proxying [POST /element/55f8b5b2-8f7a-4d96-bf5c-c9808eaaaa8b/click] to [POST http://localhost:8200/wd/hub/session/ef6ce9f5-2a32-4f77-beec-eb316abc0367/element/55f8b5b2-8f7a-4d96-bf5c-c9808eaaaa8b/click] with body: {"element":"55f8b5b2-8f7a-4d96-bf5c-c9808eaaaa8b"}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"ef6ce9f5-2a32-4f77-beec-eb316abc0367","status":0,"value":true}
 [debug] [MJSONWP] Responding to client with driver.click() result: true
-[HTTP] <-- POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element/9afca26b-ced6-404c-8735-cd24986e931a/click 200 3577 ms - 76 
-[HTTP] --> POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").instance(0)"}
-[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().className(\"android.widget.EditText\").instance(0)","2a045708-f979-48f9-a85a-ff2cb3855d9d"]
+[HTTP] <-- POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element/55f8b5b2-8f7a-4d96-bf5c-c9808eaaaa8b/click 200 2496 ms - 76 
+[HTTP] --> POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").instance(0)"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().className(\"android.widget.EditText\").instance(0)","4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd"]
 [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
 [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
 [debug] [BaseDriver] Waiting up to 0 ms for condition
-[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8200/wd/hub/session/478ec22a-2591-4536-9c70-12634623c255/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.EditText\").instance(0)","context":"","multiple":true}
-[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"478ec22a-2591-4536-9c70-12634623c255","status":0,"value":[{"ELEMENT":"45600039-45d5-4b35-9e2e-b634b65e0ea0"}]}
-[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"45600039-45d5-4b35-9e2e-b634b65e0ea0"}]
-[HTTP] <-- POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/elements 200 88 ms - 124 
-[HTTP] --> POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element/45600039-45d5-4b35-9e2e-b634b65e0ea0/clear {}
-[debug] [MJSONWP] Calling AppiumDriver.clear() with args: ["45600039-45d5-4b35-9e2e-b634b65e0ea0","2a045708-f979-48f9-a85a-ff2cb3855d9d"]
-[debug] [JSONWP Proxy] Proxying [GET /element/45600039-45d5-4b35-9e2e-b634b65e0ea0/text] to [GET http://localhost:8200/wd/hub/session/478ec22a-2591-4536-9c70-12634623c255/element/45600039-45d5-4b35-9e2e-b634b65e0ea0/text] with body: {}
-[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"478ec22a-2591-4536-9c70-12634623c255\",\"status\":0,\"value\":\"\"}"
-[debug] [JSONWP Proxy] Proxying [POST /element/45600039-45d5-4b35-9e2e-b634b65e0ea0/click] to [POST http://localhost:8200/wd/hub/session/478ec22a-2591-4536-9c70-12634623c255/element/45600039-45d5-4b35-9e2e-b634b65e0ea0/click] with body: {"element":"45600039-45d5-4b35-9e2e-b634b65e0ea0"}
-[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"478ec22a-2591-4536-9c70-12634623c255","status":0,"value":true}
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8200/wd/hub/session/ef6ce9f5-2a32-4f77-beec-eb316abc0367/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.EditText\").instance(0)","context":"","multiple":true}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"ef6ce9f5-2a32-4f77-beec-eb316abc0367","status":0,"value":[{"ELEMENT":"a192d5bc-2b57-428f-8139-f8fd8ee6fe04"}]}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"a192d5bc-2b57-428f-8139-f8fd8ee6fe04"}]
+[HTTP] <-- POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/elements 200 115 ms - 124 
+[HTTP] --> POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element/a192d5bc-2b57-428f-8139-f8fd8ee6fe04/clear {}
+[debug] [MJSONWP] Calling AppiumDriver.clear() with args: ["a192d5bc-2b57-428f-8139-f8fd8ee6fe04","4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd"]
+[debug] [JSONWP Proxy] Proxying [GET /element/a192d5bc-2b57-428f-8139-f8fd8ee6fe04/text] to [GET http://localhost:8200/wd/hub/session/ef6ce9f5-2a32-4f77-beec-eb316abc0367/element/a192d5bc-2b57-428f-8139-f8fd8ee6fe04/text] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"ef6ce9f5-2a32-4f77-beec-eb316abc0367\",\"status\":0,\"value\":\"\"}"
+[debug] [JSONWP Proxy] Proxying [POST /element/a192d5bc-2b57-428f-8139-f8fd8ee6fe04/click] to [POST http://localhost:8200/wd/hub/session/ef6ce9f5-2a32-4f77-beec-eb316abc0367/element/a192d5bc-2b57-428f-8139-f8fd8ee6fe04/click] with body: {"element":"a192d5bc-2b57-428f-8139-f8fd8ee6fe04"}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"ef6ce9f5-2a32-4f77-beec-eb316abc0367","status":0,"value":true}
 [debug] [AndroidDriver] Sending up to 100 clear characters to device
 [debug] [AndroidDriver] Sending 50 clear characters to device
 [debug] [ADB] Clearing up to 50 characters
@@ -450,28 +449,28 @@
 [debug] [ADB] 1 device(s) connected
 [debug] [ADB] Running '/Users/diegogamboa/Library/Android/sdk/platform-tools/adb' with args: ["-P",5037,"-s","emulator-5554","shell","input","keyevent","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112"]
 [debug] [MJSONWP] Responding to client with driver.clear() result: null
-[HTTP] <-- POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element/45600039-45d5-4b35-9e2e-b634b65e0ea0/clear 200 5825 ms - 76 
-[HTTP] --> POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element/45600039-45d5-4b35-9e2e-b634b65e0ea0/value {"value":["d","i","d","i","e","r","@","h","o","l","a","w","i","n","k",".","c","o","m"],"text":"didier@holawink.com"}
-[debug] [MJSONWP] Calling AppiumDriver.setValue() with args: [["d","i","d","i","e","r","@","h","o","l","a","w","i","n","k",".","c","o","m"],"45600039-45d5-4b35-9e2e-b634b65e0ea0","2a045708-f979-48f9-a85a-ff2cb3855d9d"]
-[debug] [JSONWP Proxy] Proxying [POST /element/45600039-45d5-4b35-9e2e-b634b65e0ea0/value] to [POST http://localhost:8200/wd/hub/session/478ec22a-2591-4536-9c70-12634623c255/element/45600039-45d5-4b35-9e2e-b634b65e0ea0/value] with body: {"elementId":"45600039-45d5-4b35-9e2e-b634b65e0ea0","text":"didier@holawink.com","replace":false}
-[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"478ec22a-2591-4536-9c70-12634623c255","status":0,"value":""}
+[HTTP] <-- POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element/a192d5bc-2b57-428f-8139-f8fd8ee6fe04/clear 200 4266 ms - 76 
+[HTTP] --> POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element/a192d5bc-2b57-428f-8139-f8fd8ee6fe04/value {"value":["d","i","d","i","e","r","@","h","o","l","a","w","i","n","k",".","c","o","m"],"text":"didier@holawink.com"}
+[debug] [MJSONWP] Calling AppiumDriver.setValue() with args: [["d","i","d","i","e","r","@","h","o","l","a","w","i","n","k",".","c","o","m"],"a192d5bc-2b57-428f-8139-f8fd8ee6fe04","4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd"]
+[debug] [JSONWP Proxy] Proxying [POST /element/a192d5bc-2b57-428f-8139-f8fd8ee6fe04/value] to [POST http://localhost:8200/wd/hub/session/ef6ce9f5-2a32-4f77-beec-eb316abc0367/element/a192d5bc-2b57-428f-8139-f8fd8ee6fe04/value] with body: {"elementId":"a192d5bc-2b57-428f-8139-f8fd8ee6fe04","text":"didier@holawink.com","replace":false}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"ef6ce9f5-2a32-4f77-beec-eb316abc0367","status":0,"value":""}
 [debug] [MJSONWP] Responding to client with driver.setValue() result: ""
-[HTTP] <-- POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element/45600039-45d5-4b35-9e2e-b634b65e0ea0/value 200 145 ms - 74 
-[HTTP] --> POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").instance(1)"}
-[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().className(\"android.widget.EditText\").instance(1)","2a045708-f979-48f9-a85a-ff2cb3855d9d"]
+[HTTP] <-- POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element/a192d5bc-2b57-428f-8139-f8fd8ee6fe04/value 200 217 ms - 74 
+[HTTP] --> POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").instance(1)"}
+[debug] [MJSONWP] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().className(\"android.widget.EditText\").instance(1)","4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd"]
 [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
 [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
 [debug] [BaseDriver] Waiting up to 0 ms for condition
-[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8200/wd/hub/session/478ec22a-2591-4536-9c70-12634623c255/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.EditText\").instance(1)","context":"","multiple":true}
-[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"478ec22a-2591-4536-9c70-12634623c255","status":0,"value":[{"ELEMENT":"a70c427c-880f-4915-93da-58cdaaed7e33"}]}
-[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"a70c427c-880f-4915-93da-58cdaaed7e33"}]
-[HTTP] <-- POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/elements 200 728 ms - 124 
-[HTTP] --> POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element/a70c427c-880f-4915-93da-58cdaaed7e33/clear {}
-[debug] [MJSONWP] Calling AppiumDriver.clear() with args: ["a70c427c-880f-4915-93da-58cdaaed7e33","2a045708-f979-48f9-a85a-ff2cb3855d9d"]
-[debug] [JSONWP Proxy] Proxying [GET /element/a70c427c-880f-4915-93da-58cdaaed7e33/text] to [GET http://localhost:8200/wd/hub/session/478ec22a-2591-4536-9c70-12634623c255/element/a70c427c-880f-4915-93da-58cdaaed7e33/text] with body: {}
-[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"478ec22a-2591-4536-9c70-12634623c255\",\"status\":0,\"value\":\"\"}"
-[debug] [JSONWP Proxy] Proxying [POST /element/a70c427c-880f-4915-93da-58cdaaed7e33/click] to [POST http://localhost:8200/wd/hub/session/478ec22a-2591-4536-9c70-12634623c255/element/a70c427c-880f-4915-93da-58cdaaed7e33/click] with body: {"element":"a70c427c-880f-4915-93da-58cdaaed7e33"}
-[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"478ec22a-2591-4536-9c70-12634623c255","status":0,"value":true}
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8200/wd/hub/session/ef6ce9f5-2a32-4f77-beec-eb316abc0367/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.EditText\").instance(1)","context":"","multiple":true}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"ef6ce9f5-2a32-4f77-beec-eb316abc0367","status":0,"value":[{"ELEMENT":"d28ba7b5-e7f8-43c5-bb97-72fe594ab384"}]}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"d28ba7b5-e7f8-43c5-bb97-72fe594ab384"}]
+[HTTP] <-- POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/elements 200 662 ms - 124 
+[HTTP] --> POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element/d28ba7b5-e7f8-43c5-bb97-72fe594ab384/clear {}
+[debug] [MJSONWP] Calling AppiumDriver.clear() with args: ["d28ba7b5-e7f8-43c5-bb97-72fe594ab384","4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd"]
+[debug] [JSONWP Proxy] Proxying [GET /element/d28ba7b5-e7f8-43c5-bb97-72fe594ab384/text] to [GET http://localhost:8200/wd/hub/session/ef6ce9f5-2a32-4f77-beec-eb316abc0367/element/d28ba7b5-e7f8-43c5-bb97-72fe594ab384/text] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"ef6ce9f5-2a32-4f77-beec-eb316abc0367\",\"status\":0,\"value\":\"\"}"
+[debug] [JSONWP Proxy] Proxying [POST /element/d28ba7b5-e7f8-43c5-bb97-72fe594ab384/click] to [POST http://localhost:8200/wd/hub/session/ef6ce9f5-2a32-4f77-beec-eb316abc0367/element/d28ba7b5-e7f8-43c5-bb97-72fe594ab384/click] with body: {"element":"d28ba7b5-e7f8-43c5-bb97-72fe594ab384"}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"ef6ce9f5-2a32-4f77-beec-eb316abc0367","status":0,"value":true}
 [debug] [AndroidDriver] Sending up to 100 clear characters to device
 [debug] [AndroidDriver] Sending 50 clear characters to device
 [debug] [ADB] Clearing up to 50 characters
@@ -484,34 +483,29 @@
 [debug] [ADB] 1 device(s) connected
 [debug] [ADB] Running '/Users/diegogamboa/Library/Android/sdk/platform-tools/adb' with args: ["-P",5037,"-s","emulator-5554","shell","input","keyevent","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112","67","112"]
 [debug] [MJSONWP] Responding to client with driver.clear() result: null
-[HTTP] <-- POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element/a70c427c-880f-4915-93da-58cdaaed7e33/clear 200 5588 ms - 76 
-[HTTP] --> POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element/a70c427c-880f-4915-93da-58cdaaed7e33/value {"value":["t","e","s","t","s"],"text":"tests"}
-[debug] [MJSONWP] Calling AppiumDriver.setValue() with args: [["t","e","s","t","s"],"a70c427c-880f-4915-93da-58cdaaed7e33","2a045708-f979-48f9-a85a-ff2cb3855d9d"]
-[debug] [JSONWP Proxy] Proxying [POST /element/a70c427c-880f-4915-93da-58cdaaed7e33/value] to [POST http://localhost:8200/wd/hub/session/478ec22a-2591-4536-9c70-12634623c255/element/a70c427c-880f-4915-93da-58cdaaed7e33/value] with body: {"elementId":"a70c427c-880f-4915-93da-58cdaaed7e33","text":"tests","replace":false}
-[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"478ec22a-2591-4536-9c70-12634623c255","status":0,"value":""}
+[HTTP] <-- POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element/d28ba7b5-e7f8-43c5-bb97-72fe594ab384/clear 200 5214 ms - 76 
+[HTTP] --> POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element/d28ba7b5-e7f8-43c5-bb97-72fe594ab384/value {"value":["t","e","s","t","s"],"text":"tests"}
+[debug] [MJSONWP] Calling AppiumDriver.setValue() with args: [["t","e","s","t","s"],"d28ba7b5-e7f8-43c5-bb97-72fe594ab384","4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd"]
+[debug] [JSONWP Proxy] Proxying [POST /element/d28ba7b5-e7f8-43c5-bb97-72fe594ab384/value] to [POST http://localhost:8200/wd/hub/session/ef6ce9f5-2a32-4f77-beec-eb316abc0367/element/d28ba7b5-e7f8-43c5-bb97-72fe594ab384/value] with body: {"elementId":"d28ba7b5-e7f8-43c5-bb97-72fe594ab384","text":"tests","replace":false}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"ef6ce9f5-2a32-4f77-beec-eb316abc0367","status":0,"value":""}
 [debug] [MJSONWP] Responding to client with driver.setValue() result: ""
-[HTTP] <-- POST /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d/element/a70c427c-880f-4915-93da-58cdaaed7e33/value 200 128 ms - 74 
-[HTTP] --> DELETE /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d {}
-[debug] [MJSONWP] Calling AppiumDriver.deleteSession() with args: ["2a045708-f979-48f9-a85a-ff2cb3855d9d"]
-[debug] [BaseDriver] Event 'quitSessionRequested' logged at 1523304921824 (14:15:21 GMT-0600 (CST))
-[Appium] Removing session 2a045708-f979-48f9-a85a-ff2cb3855d9d from our master session list
+[HTTP] <-- POST /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd/element/d28ba7b5-e7f8-43c5-bb97-72fe594ab384/value 200 216 ms - 74 
+[HTTP] --> DELETE /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd {}
+[debug] [MJSONWP] Calling AppiumDriver.deleteSession() with args: ["4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd"]
+[debug] [BaseDriver] Event 'quitSessionRequested' logged at 1523305587752 (14:26:27 GMT-0600 (CST))
+[Appium] Removing session 4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd from our master session list
 [debug] [UiAutomator2] Deleting UiAutomator2 session
 [debug] [UiAutomator2] Deleting UiAutomator2 server session
-[debug] [JSONWP Proxy] Proxying [DELETE /] to [DELETE http://localhost:8200/wd/hub/session/478ec22a-2591-4536-9c70-12634623c255] with no body
-[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"478ec22a-2591-4536-9c70-12634623c255\",\"status\":0,\"value\":\"Session deleted\"}"
+[debug] [JSONWP Proxy] Proxying [DELETE /] to [DELETE http://localhost:8200/wd/hub/session/ef6ce9f5-2a32-4f77-beec-eb316abc0367] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"ef6ce9f5-2a32-4f77-beec-eb316abc0367\",\"status\":0,\"value\":\"Session deleted\"}"
 [debug] [ADB] Getting connected devices...
 [debug] [ADB] 1 device(s) connected
 [debug] [ADB] Running '/Users/diegogamboa/Library/Android/sdk/platform-tools/adb' with args: ["-P",5037,"-s","emulator-5554","shell","am","force-stop","com.fintechla.wink"]
 [debug] [Logcat] Stopping logcat capture
 [debug] [ADB] Removing forwarded port socket connection: 8200 
 [debug] [ADB] Running '/Users/diegogamboa/Library/Android/sdk/platform-tools/adb' with args: ["-P",5037,"-s","emulator-5554","forward","--remove","tcp:8200"]
-[debug] [BaseDriver] Event 'quitSessionFinished' logged at 1523304922146 (14:15:22 GMT-0600 (CST))
+[debug] [BaseDriver] Event 'quitSessionFinished' logged at 1523305588070 (14:26:28 GMT-0600 (CST))
 [debug] [MJSONWP] Received response: null
 [debug] [MJSONWP] But deleting session, so not returning
 [debug] [MJSONWP] Responding to client with driver.deleteSession() result: null
-[HTTP] <-- DELETE /wd/hub/session/2a045708-f979-48f9-a85a-ff2cb3855d9d 200 327 ms - 76 
-=======
-[HTTP] Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
-uncaughtException: listen EADDRINUSE 0.0.0.0:4723
-	{"date":"Sun Apr 08 2018 18:14:38 GMT-0600 (CST)","process":{"pid":9350,"uid":501,"gid":20,"cwd":"/Users/edercoronado/Documents/wink_automation","execPath":"/usr/local/bin/node","version":"v8.11.1","argv":["/usr/local/bin/node","/Users/edercoronado/Documents/wink_automation/node_modules/.bin/appium","--address","0.0.0.0","--port","4723","--command-timeout","1800000","--session-override","--debug-log-spacing"],"memoryUsage":{"rss":145252352,"heapTotal":117936128,"heapUsed":89798224,"external":713864}},"os":{"loadavg":[3.2392578125,2.76416015625,2.6767578125],"uptime":8111},"trace":[{"column":11,"file":"util.js","function":"Object._errnoException","line":1022,"method":"_errnoException","native":false},{"column":20,"file":"util.js","function":"_exceptionWithHostPort","line":1044,"method":null,"native":false},{"column":14,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1367,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1408,"method":null,"native":false},{"column":7,"file":"net.js","function":"doListen","line":1517,"method":null,"native":false},{"column":11,"file":"internal/process/next_tick.js","function":"_combinedTickCallback","line":141,"method":null,"native":false},{"column":9,"file":"internal/process/next_tick.js","function":"process._tickCallback","line":180,"method":"_tickCallback","native":false}],"stack":["Error: listen EADDRINUSE 0.0.0.0:4723","    at Object._errnoException (util.js:1022:11)","    at _exceptionWithHostPort (util.js:1044:20)","    at Server.setupListenHandle [as _listen2] (net.js:1367:14)","    at listenInCluster (net.js:1408:12)","    at doListen (net.js:1517:7)","    at _combinedTickCallback (internal/process/next_tick.js:141:11)","    at process._tickCallback (internal/process/next_tick.js:180:9)"]}
->>>>>>> a989af617ef26f398b3e2585f32c4f0cbc309f5e
+[HTTP] <-- DELETE /wd/hub/session/4166c5d0-3d6b-4d50-85e1-a41e7bd2d9cd 200 321 ms - 76 
