@@ -35,16 +35,16 @@ const assert = require('assert');
     .setValue(selectors.input_create_account_email, "test@test.com")
     .click(selectors.next_create_account_email_button); */
 
-    describe('WINK', () => {
+    describe('WINK - Android', () => {
 
-      it('Test', () => {
+      it('Pre-register text', () => {
         browser.click(selectors.wink_main_window);
-        browser.pause(6000);
+        browser.pause(3000);
         assert(browser.isVisible(selectors.message_welcome, true));
       })
-      it('Test2', () => {
+      it('Enter email', () => {
         browser.touchAction(selectors.input_email, 'tap');
         browser.setValue(selectors.input_email, "didier@holawink.com");
-        browser.pause(6000);
+        browser.pause(3000);
       })
     });
